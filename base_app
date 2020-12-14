@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T12:03:10.630Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="-dzd-qOshaMDlfMJy8TE" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T12:04:15.309Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="jKROsjo0Mb-ZYwssOBef" version="14.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3716" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,7 +130,7 @@
             <mxPoint x="-1052" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AmHbZHZlYUlvdZBNM_50-150" value="&amp;nbsp; &amp;nbsp; 1. check if connection are satisfied&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. check if there is any wrong parameters" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="AmHbZHZlYUlvdZBNM_50-150" value="&amp;nbsp; &amp;nbsp; 1. check if connections are satisfied&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. check if parameters are correct" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1632" y="140" width="300" height="72" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-151" value="check_status()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="AmHbZHZlYUlvdZBNM_50-150">

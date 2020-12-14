@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T11:39:21.669Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="0k-hw-fomg2ruIhD1ODZ" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T11:55:46.660Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="BCb1XPnOAg1RgXINzSyT" version="14.0.1" type="github">
   <diagram name="Page-1" id="6133507b-19e7-1e82-6fc7-422aa6c4b21f">
     <mxGraphModel dx="2818" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -83,19 +83,19 @@
           <mxGeometry width="220" height="25" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hlV0oOmZxnZB9pKiNBcQ-59" value="&amp;nbsp; &amp;nbsp; is_continue = app.run_in_loop()&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; if is_continue == is False:&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; app.post_work()&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return AppConfiguring()&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; return AppRunning()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-643" y="560" width="240" height="130" as="geometry" />
+          <mxGeometry x="-642" y="572" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="hlV0oOmZxnZB9pKiNBcQ-60" value="routine_work(app)" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="hlV0oOmZxnZB9pKiNBcQ-59">
           <mxGeometry width="240" height="25" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hlV0oOmZxnZB9pKiNBcQ-63" value="&amp;nbsp; &amp;nbsp; is_start, new_app = app_queue.pop()&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; if new_app.check_status() and is_start():&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return new_app, AppRunning()&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; return new_app, AppConfiguring()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="578" width="300" height="110" as="geometry" />
+        <mxCell id="hlV0oOmZxnZB9pKiNBcQ-63" value="&amp;nbsp; &amp;nbsp; is_start, new_app = app_queue.pop()&lt;br style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &amp;nbsp; if new_app.check_status() and is_start():&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; new_app.pre_work()&lt;br style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return new_app, AppRunning()&lt;br style=&quot;font-size: 15px&quot;&gt;&amp;nbsp; &amp;nbsp; return new_app, AppConfiguring()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-979" y="570" width="300" height="132" as="geometry" />
         </mxCell>
         <mxCell id="hlV0oOmZxnZB9pKiNBcQ-64" value="handle(app, app_queue): " style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="hlV0oOmZxnZB9pKiNBcQ-63">
           <mxGeometry width="300" height="25" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hlV0oOmZxnZB9pKiNBcQ-65" value="&amp;nbsp; &amp;nbsp; app.post_work()&lt;br style=&quot;font-size: 15px;&quot;&gt;&amp;nbsp; &amp;nbsp; return app, AppConfiguring()" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-352" y="610" width="220" height="80" as="geometry" />
+          <mxGeometry x="-351" y="622" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hlV0oOmZxnZB9pKiNBcQ-66" value="handle(app, app_queue): " style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="hlV0oOmZxnZB9pKiNBcQ-65">
           <mxGeometry width="220" height="25" relative="1" as="geometry" />
@@ -131,15 +131,14 @@
             <mxPoint x="-245" y="387" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hlV0oOmZxnZB9pKiNBcQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1">
+        <mxCell id="hlV0oOmZxnZB9pKiNBcQ-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" target="hlV0oOmZxnZB9pKiNBcQ-59">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-322" y="487" as="sourcePoint" />
             <mxPoint x="-464" y="560" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-337" y="487" />
               <mxPoint x="-337" y="550" />
-              <mxPoint x="-461" y="550" />
-              <mxPoint x="-461" y="560" />
+              <mxPoint x="-500" y="550" />
             </Array>
           </mxGeometry>
         </mxCell>

@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-14T12:20:59.658Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="X0kQ4aiKS5IwtXzzwGp8" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-14T12:52:00.902Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="LMWrD68JajrFZyhgz0kM" version="14.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3716" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3716" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -35,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-122" value="&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;BaseApp" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1032" y="153" width="122" height="166" as="geometry">
+          <mxGeometry x="-1044" y="140" width="122" height="166" as="geometry">
             <mxRectangle x="-1010" y="240" width="130" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -55,7 +55,7 @@
           <mxGeometry y="140" width="122" height="26" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-148" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1070" y="391" width="160" height="168" as="geometry" />
+          <mxGeometry x="-1082" y="350" width="160" height="168" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-142" value="AppSpecified1" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=15;" vertex="1" parent="AmHbZHZlYUlvdZBNM_50-148">
           <mxGeometry x="21.71945701357466" y="30" width="138.28054298642536" height="138" as="geometry" />
@@ -123,33 +123,33 @@
         <mxCell id="AmHbZHZlYUlvdZBNM_50-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=8;endArrow=block;endFill=0;endSize=16;fontFamily=Verdana;fontSize=15;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AmHbZHZlYUlvdZBNM_50-55" target="AmHbZHZlYUlvdZBNM_50-122">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1002" y="360" />
-              <mxPoint x="-1002" y="360" />
+              <mxPoint x="-1014" y="362" />
+              <mxPoint x="-1014" y="362" />
             </Array>
-            <mxPoint x="-459.5" y="700" as="sourcePoint" />
-            <mxPoint x="-1052" y="370" as="targetPoint" />
+            <mxPoint x="-471.5" y="702" as="sourcePoint" />
+            <mxPoint x="-1064" y="372" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-150" value="&amp;nbsp; &amp;nbsp; 1. check if connections are satisfied&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. check if parameters are correct" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1632" y="140" width="300" height="72" as="geometry" />
+          <mxGeometry x="-1550" y="140" width="300" height="72" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-151" value="check_status()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="AmHbZHZlYUlvdZBNM_50-150">
           <mxGeometry width="300.00000000000006" height="25" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-152" value="&amp;nbsp; &amp;nbsp; 1. clear data_queue&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. create a new file to store data&lt;br&gt;&amp;nbsp; &amp;nbsp; 3. register callback functions" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1632" y="252" width="300" height="90" as="geometry" />
+          <mxGeometry x="-1550" y="240" width="300" height="90" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-153" value="pre_work()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="AmHbZHZlYUlvdZBNM_50-152">
           <mxGeometry width="300.00000000000006" height="25" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="AmHbZHZlYUlvdZBNM_50-154" value="&amp;nbsp; &amp;nbsp; 1. check if connection are satisfied&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. check if there is any wrong parameters" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1632" y="380" width="300" height="72" as="geometry" />
+        <mxCell id="AmHbZHZlYUlvdZBNM_50-154" value="&amp;nbsp; &amp;nbsp; 1. fetch IMU data and then analyze&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. storing data into the file" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1550" y="350" width="300" height="72" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-155" value="run_in_loop()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="AmHbZHZlYUlvdZBNM_50-154">
           <mxGeometry width="300.00000000000006" height="25" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-156" value="&amp;nbsp; &amp;nbsp; 1. unregister callback functions&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. close the exsited storing file" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1632" y="489" width="300" height="72" as="geometry" />
+          <mxGeometry x="-1550" y="446" width="300" height="72" as="geometry" />
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-157" value="post_work()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="AmHbZHZlYUlvdZBNM_50-156">
           <mxGeometry width="300.00000000000006" height="25" relative="1" as="geometry" />
@@ -157,32 +157,32 @@
         <mxCell id="AmHbZHZlYUlvdZBNM_50-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AmHbZHZlYUlvdZBNM_50-57" target="AmHbZHZlYUlvdZBNM_50-150">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1240" y="438" />
-              <mxPoint x="-1240" y="189" />
+              <mxPoint x="-1220" y="397" />
+              <mxPoint x="-1220" y="189" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AmHbZHZlYUlvdZBNM_50-58" target="AmHbZHZlYUlvdZBNM_50-152">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1260" y="464" />
-              <mxPoint x="-1260" y="310" />
+              <mxPoint x="-1230" y="423" />
+              <mxPoint x="-1230" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AmHbZHZlYUlvdZBNM_50-128" target="AmHbZHZlYUlvdZBNM_50-154">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1290" y="490" />
-              <mxPoint x="-1290" y="416" />
+              <mxPoint x="-1240" y="449" />
+              <mxPoint x="-1240" y="416" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="AmHbZHZlYUlvdZBNM_50-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AmHbZHZlYUlvdZBNM_50-129" target="AmHbZHZlYUlvdZBNM_50-156">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1292" y="516" />
-              <mxPoint x="-1292" y="516" />
+              <mxPoint x="-1130" y="475" />
+              <mxPoint x="-1130" y="475" />
             </Array>
           </mxGeometry>
         </mxCell>

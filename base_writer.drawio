@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-15T05:20:31.696Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="cqs5bfU61QzFj2f2ICLm" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-15T05:26:33.672Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qxBMWL0d2Ov1QnckdDVa" version="14.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="3716" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,10 +181,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DF5kBo6IlGlXPHQ93BRQ-0" value="&amp;nbsp; &amp;nbsp; 1. create raw data hdf5 group&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and create raw fields dataset&lt;br&gt;&amp;nbsp; &amp;nbsp; 2. create user data hdf5 group&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; and create user fields dataset&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1222" y="857" width="246" height="110" as="geometry" />
+          <mxGeometry x="-1240" y="857" width="290" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="DF5kBo6IlGlXPHQ93BRQ-1" value="register_fields()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="DF5kBo6IlGlXPHQ93BRQ-0">
-          <mxGeometry width="246.00000000000014" height="25" relative="1" as="geometry" />
+        <mxCell id="DF5kBo6IlGlXPHQ93BRQ-1" value="register_fields(raw_fields, user_fields)" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="DF5kBo6IlGlXPHQ93BRQ-0">
+          <mxGeometry width="290.00000000000017" height="25" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DF5kBo6IlGlXPHQ93BRQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PrIXuy7PniAQYLnB4FNg-12" target="DF5kBo6IlGlXPHQ93BRQ-1">
           <mxGeometry relative="1" as="geometry">
@@ -193,11 +193,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DF5kBo6IlGlXPHQ93BRQ-5" value="&amp;nbsp; &amp;nbsp; write raw_fields hand user fields into the header&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-1462" y="887" width="216" height="80" as="geometry" />
+        <mxCell id="DF5kBo6IlGlXPHQ93BRQ-5" value="&amp;nbsp; &amp;nbsp; write raw_fields and user_fields in header&lt;br&gt;&amp;nbsp;&amp;nbsp;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fontSize=15;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1560" y="887" width="314" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="DF5kBo6IlGlXPHQ93BRQ-6" value="register_fields()" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="DF5kBo6IlGlXPHQ93BRQ-5">
-          <mxGeometry width="216.0000000000001" height="25" relative="1" as="geometry" />
+        <mxCell id="DF5kBo6IlGlXPHQ93BRQ-6" value="register_fields(raw_fields, user_fields)" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;fontSize=15;" vertex="1" parent="DF5kBo6IlGlXPHQ93BRQ-5">
+          <mxGeometry width="314.0000000000002" height="25" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DF5kBo6IlGlXPHQ93BRQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="AmHbZHZlYUlvdZBNM_50-58" target="DF5kBo6IlGlXPHQ93BRQ-5">
           <mxGeometry relative="1" as="geometry">

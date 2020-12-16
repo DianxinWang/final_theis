@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-16T11:21:14.583Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="z5Vdk3_CzQ9xbQIPrRxH" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-16T11:25:09.503Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="48m-tB9OUDUbUHWtu-X5" version="14.0.1" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2062" dy="1161" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="U88-FXjxcmVZI3r90VOD-26" value="to_dpm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="U88-FXjxcmVZI3r90VOD-35">
+        <mxCell id="U88-FXjxcmVZI3r90VOD-26" value="GPIO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" vertex="1" parent="U88-FXjxcmVZI3r90VOD-35">
           <mxGeometry x="309.6" y="330" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U88-FXjxcmVZI3r90VOD-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;" edge="1" parent="U88-FXjxcmVZI3r90VOD-35" source="U88-FXjxcmVZI3r90VOD-23" target="U88-FXjxcmVZI3r90VOD-26">

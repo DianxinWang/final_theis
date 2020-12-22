@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T12:02:55.515Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="z_-EV3Z7LnuYmzoAXCeR" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T12:03:48.925Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="RGBtMXGc_214Qq-tuH3Q" version="14.0.4" type="github">
   <diagram id="gUeI5IMNYp3pwjGbqMhT" name="Page-1">
     <mxGraphModel dx="1990" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
             <mxPoint x="537" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SzCbTHrfoQRozekLKOVm-49" value="获取Piconent时间" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="SzCbTHrfoQRozekLKOVm-49" value="同步节点" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="477" y="320" width="120" height="60" as="geometry" />
         </mxCell>
       </root>

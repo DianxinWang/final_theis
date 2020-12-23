@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2020-12-23T07:03:35.776Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="ti67MTUD5ksEDVWmwHGK" version="14.1.1" type="github">
+  <diagram id="87zeUwToipujjPE_Q1oS" name="Page-1">
+    <mxGraphModel dx="1990" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;定时器中断&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;font-size: 16px; margin: 0px; text-align: center;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;时间间隔10ms&lt;/i&gt;&lt;/p&gt;" style="shape=rect;align=left;html=1;overflow=fill;whiteSpace=wrap;strokeWidth=1;recursiveResize=0;fontStyle=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="50" y="250" width="140" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-3" value="检查按钮状态" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-2" vertex="1">
+          <mxGeometry x="15" y="60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-8" value="更新LED状态" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-2" vertex="1">
+          <mxGeometry x="15" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-9" value="更新电机状态" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-2" vertex="1">
+          <mxGeometry x="15" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-10" value="采集IMU数据" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-2" vertex="1">
+          <mxGeometry x="15" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-11" value="发送节点信息" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-2" vertex="1">
+          <mxGeometry x="15" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-12" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 16px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;通信中断&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 16px;&quot;&gt;&lt;p style=&quot;font-size: 16px; margin: 0px; text-align: center;&quot;&gt;&lt;i style=&quot;font-size: 16px;&quot;&gt;UART中断&lt;/i&gt;&lt;/p&gt;" style="shape=rect;align=left;html=1;overflow=fill;whiteSpace=wrap;strokeWidth=1;recursiveResize=0;fontStyle=0;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="210" y="250" width="130" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-13" value="振动控制指令" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-12" vertex="1">
+          <mxGeometry x="15" y="60" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-14" value="LED控制指令" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-12" vertex="1">
+          <mxGeometry x="15" y="130" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-15" value="数据采集指令" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-12" vertex="1">
+          <mxGeometry x="15" y="200" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-16" value="蓝牙同步信息" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-12" vertex="1">
+          <mxGeometry x="15" y="270" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KfdkEf-_9sM_cGhUgu5W-17" value="蓝牙断连信息" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;shape=rect;html=1;fontStyle=0;whiteSpace=wrap;align=center;fontSize=16;" parent="KfdkEf-_9sM_cGhUgu5W-12" vertex="1">
+          <mxGeometry x="15" y="340" width="100" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

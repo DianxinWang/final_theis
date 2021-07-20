@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T12:05:59.028Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="df3gH49C4b2h6WpPogOf" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T12:11:22.441Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15" etag="aKedd4ebBb7hQm-Ue0n4" version="14.9.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1011" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="O9CxE7nqKKuWHLjGEseC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="60" y="315" width="340" height="525" as="geometry" />
+          <mxGeometry x="460" y="330" width="340" height="525" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-0" value="editor_scene_3d_system" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="295" width="170" height="70" as="geometry" />
+          <mxGeometry x="440" y="310" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="480" y="330" width="320" height="510" as="geometry" />
+          <mxGeometry x="70" y="335" width="320" height="510" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-4" value="head_3d_system" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="460" y="305" width="170" height="70" as="geometry" />
+          <mxGeometry x="50" y="310" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-6" target="O9CxE7nqKKuWHLjGEseC-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-6" value="职责: 绘制中间3D编辑界面中独有物件：网格、相机平面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="70" y="375" width="330" height="20" as="geometry" />
+          <mxGeometry x="470" y="390" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-8" value="新增职责: 绘制自定义头模" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="70" y="420" width="330" height="20" as="geometry" />
+          <mxGeometry x="470" y="435" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-14" target="O9CxE7nqKKuWHLjGEseC-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-14" value="update" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="576.5" y="440" width="120" height="50" as="geometry" />
+          <mxGeometry x="166.5" y="445" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-15" target="O9CxE7nqKKuWHLjGEseC-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-15" value="Face3DComponent发生改变" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="540" y="530" width="193" height="80" as="geometry" />
+          <mxGeometry x="130" y="535" width="193" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-17" target="O9CxE7nqKKuWHLjGEseC-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-17" value="重建head_helper" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="576.5" y="640" width="120" height="60" as="geometry" />
+          <mxGeometry x="166.5" y="645" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-18" value="HeadHelper" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="420" y="160" width="160" height="130" as="geometry" />
@@ -77,37 +77,37 @@
           <mxGeometry x="580" y="190" width="220" height="58" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-30" value="更新head_helper中的&lt;br&gt;TTHeadData（ib和vb）" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="555" y="750" width="163" height="60" as="geometry" />
+          <mxGeometry x="145" y="755" width="163" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-34" target="O9CxE7nqKKuWHLjGEseC-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-34" value="update" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="470" width="120" height="50" as="geometry" />
+          <mxGeometry x="570" y="485" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-35" target="O9CxE7nqKKuWHLjGEseC-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-35" value="Face3DComponent中&lt;br&gt;head_helper指针发生改变" style="rhombus;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="131.75" y="550" width="196.5" height="80" as="geometry" />
+          <mxGeometry x="531.75" y="565" width="196.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="O9CxE7nqKKuWHLjGEseC-37" target="O9CxE7nqKKuWHLjGEseC-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-37" value="读取head_helpe中的VertexBuffer、IndexBuffer和QuatBuffer" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="154.13" y="670" width="151.75" height="60" as="geometry" />
+          <mxGeometry x="554.13" y="685" width="151.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-39" value="在3D编辑界面中生成mesh预览" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="154.13" y="760" width="151.75" height="60" as="geometry" />
+          <mxGeometry x="554.13" y="775" width="151.75" height="60" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF3333;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="70" y="530" width="300" height="300" as="geometry" />
+          <mxGeometry x="470" y="545" width="300" height="300" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-41" value="职责: 更新头模点位和矩阵变换" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="480" y="380" width="330" height="20" as="geometry" />
+          <mxGeometry x="70" y="385" width="330" height="20" as="geometry" />
         </mxCell>
         <mxCell id="O9CxE7nqKKuWHLjGEseC-43" value="新增内容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="80" y="650" width="50" height="20" as="geometry" />
+          <mxGeometry x="480" y="665" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jnxm_U-zidSxs9HYSOZe-0" value="Face3DComponent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="990" width="120" height="60" as="geometry" />
